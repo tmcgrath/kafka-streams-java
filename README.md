@@ -1,4 +1,4 @@
-## Kafka Streams in Scala Examples
+## Kafka Streams in Java Examples
 
 Kafka Streams in..... Java this time!
 
