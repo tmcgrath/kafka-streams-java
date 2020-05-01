@@ -12,37 +12,6 @@ public class KafkaStreamsJoins {
 
 
     public static void main(String[] args) throws Exception {
-
-//        if (args.length < 1) {
-//            throw new IllegalArgumentException("This program takes one argument: the path to an environment configuration file.");
-//        }
-
-//        final DynamicOutputTopic instance = new DynamicOutputTopic();
-//        final Properties envProps = instance.loadEnvProperties(args[0]);
-//        final Properties streamProps = instance.buildStreamsProperties(envProps);
-//        final Topology topology = instance.buildTopology(envProps);
-//
-//        instance.createTopics(envProps);
-//
-//        final KafkaStreams streams = new KafkaStreams(topology, streamProps);
-//        final CountDownLatch latch = new CountDownLatch(1);
-//
-//        // Attach shutdown handler to catch Control-C.
-//        Runtime.getRuntime().addShutdownHook(new Thread("streams-shutdown-hook") {
-//            @Override
-//            public void run() {
-////                streams.close(Duration.ofSeconds(5));
-//                latch.countDown();
-//            }
-//        });
-//
-//        try {
-//            streams.start();
-//            latch.await();
-//        } catch (Throwable e) {
-//            System.exit(1);
-//        }
-//        System.exit(0);
     }
 
     static Topology kTableToKTableJoin(String inputTopic1,
